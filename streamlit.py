@@ -66,8 +66,8 @@ if st.sidebar.button('Predict'):
 import boto3
 from io import BytesIO
 s3 = boto3.client('s3',
-                 aws_access_key_id='AKIA2T64GETGN6F3QQLG',
-                 aws_secret_access_key= 'Sj2lPGuJM6F/WDn1adTowQaNRfK5CgelnuoHb63N')
+                 aws_access_key_id='# your code',
+                 aws_secret_access_key= '# your code')
 bucket_name = 'fastapimodels2' # to be replaced with bucket name
 
 
